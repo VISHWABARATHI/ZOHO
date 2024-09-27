@@ -1,6 +1,10 @@
 #include<reg51.h>
 #include"lcd.h"
 #define lcd_port P2
+
+#define led
+
+
 sbit rs=P3^0;
 sbit rw=P3^1;
 sbit en=P3^2;
